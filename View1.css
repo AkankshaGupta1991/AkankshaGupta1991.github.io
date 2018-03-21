@@ -1,0 +1,37 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+   transition: all 1s;
+}
+
+header.startup{
+ background-image: url(neven-krcmarek-246988-unsplash.jpg);
+ background-size: cover;
+  background-repeat: no-repeat;
+ background-position: center;
+  height: 100%;
+}
+
+.container{
+font-family: 'Nanum Gothic Coding', monospace;
+font-weight: bold;
+ font-size: 50px;
+ color: green;
+
+}
+
+hr {
+  border-width: 3px;
+  border-color: yellow; 
+}
+
+
+.btn-success:hover {
+  background-color: #599532;
+  /* border-color: white; */
+  border-width: 5px;
+  cursor: pointer;
+  color:green;
+  transform: scale(1.5);
+}
